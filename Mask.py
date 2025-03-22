@@ -1,9 +1,9 @@
 import pygame, sys, numpy, json, math, configparser, os
 
-#
+
 # Copyright (c) 2023-2025 UCSTORM
 # Tous droits réservés.
- */
+
 
 LOOPMAX = 32
 OUT_SIDE = 256
