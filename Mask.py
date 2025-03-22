@@ -12,7 +12,7 @@ class Mask:
 	def clear(sensor1):
 		sensor1[0].clear()
 
-	def rect_to_mask(rect, center_point) -> class_type:
+	def newSensor(rect, center_point) -> class_type: # rect_to_mask
 		""" INSIDE: MASK, RECT+CENTER_POINT, ORIGINAL_RECT"""
 		mask = pygame.mask.from_surface(pygame.Surface((rect[2], rect[3])))
 		return [mask, pygame.Rect(rect[0]+center_point[0], rect[1]+center_point[1], rect[2], rect[3]), rect]
